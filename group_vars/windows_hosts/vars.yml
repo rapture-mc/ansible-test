@@ -3,5 +3,4 @@ ansible_winrm_server_cert_validation: ignore
 
 # Kerberos Authentication
 ansible_winrm_transport: kerberos
-ansible_user: ben.harris@STZ01.SITZLER.COM.AU
 ansible_password: '{{ vault_ansible_password }}'
