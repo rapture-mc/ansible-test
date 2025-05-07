@@ -1,0 +1,9 @@
+---
+- name: Example playbook
+  hosts: windows_hosts
+  collections:
+    - microsoft.ad
+    - ansible.windows
+  tasks:
+    - name: Ping host
+      win_ping:
